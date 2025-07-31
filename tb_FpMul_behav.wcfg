@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state> 
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_FpMul_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_FpMul" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="22671500000001fs"></ZoomEndTime>
+      <Cursor1Time time="7353579203000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="133"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/tb_FpMul/tb_A" type="array">
+      <obj_property name="ElementShortName">tb_A[5:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_A[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/tb_B" type="array">
+      <obj_property name="ElementShortName">tb_B[5:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_B[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/tb_C" type="array">
+      <obj_property name="ElementShortName">tb_C[5:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_C[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/tb_AB" type="array">
+      <obj_property name="ElementShortName">tb_AB[11:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_AB[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/tb_Reset" type="logic">
+      <obj_property name="ElementShortName">tb_Reset</obj_property>
+      <obj_property name="ObjectShortName">tb_Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/tb_Clock" type="logic">
+      <obj_property name="ElementShortName">tb_Clock</obj_property>
+      <obj_property name="ObjectShortName">tb_Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/tb_BufferSel" type="logic">
+      <obj_property name="ElementShortName">tb_BufferSel</obj_property>
+      <obj_property name="ObjectShortName">tb_BufferSel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/tb_WriteEnable" type="logic">
+      <obj_property name="ElementShortName">tb_WriteEnable</obj_property>
+      <obj_property name="ObjectShortName">tb_WriteEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/tb_WriteAddress" type="array">
+      <obj_property name="ElementShortName">tb_WriteAddress[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_WriteAddress[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/tb_WriteData" type="array">
+      <obj_property name="ElementShortName">tb_WriteData[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_WriteData[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/tb_ReadEnable" type="logic">
+      <obj_property name="ElementShortName">tb_ReadEnable</obj_property>
+      <obj_property name="ObjectShortName">tb_ReadEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/tb_ReadAddress" type="array">
+      <obj_property name="ElementShortName">tb_ReadAddress[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_ReadAddress[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/tb_DataReady" type="logic">
+      <obj_property name="ElementShortName">tb_DataReady</obj_property>
+      <obj_property name="ObjectShortName">tb_DataReady</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/tb_ReadData" type="array">
+      <obj_property name="ElementShortName">tb_ReadData[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_ReadData[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/uut/iWriteAddressC" type="array">
+      <obj_property name="ElementShortName">iWriteAddressC[9:0]</obj_property>
+      <obj_property name="ObjectShortName">iWriteAddressC[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/uut/iWriteEnableC" type="array">
+      <obj_property name="ElementShortName">iWriteEnableC[0:0]</obj_property>
+      <obj_property name="ObjectShortName">iWriteEnableC[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/uut/omul_result_tdata" type="array">
+      <obj_property name="ElementShortName">omul_result_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">omul_result_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/uut/oadd_result_tdata" type="array">
+      <obj_property name="ElementShortName">oadd_result_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">oadd_result_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/uut/iReadDataX" type="array">
+      <obj_property name="ElementShortName">iReadDataX[63:0]</obj_property>
+      <obj_property name="ObjectShortName">iReadDataX[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/uut/iReadDataY" type="array">
+      <obj_property name="ElementShortName">iReadDataY[63:0]</obj_property>
+      <obj_property name="ObjectShortName">iReadDataY[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/uut/iReadEnableAB" type="logic">
+      <obj_property name="ElementShortName">iReadEnableAB</obj_property>
+      <obj_property name="ObjectShortName">iReadEnableAB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/uut/iReadAddressX" type="array">
+      <obj_property name="ElementShortName">iReadAddressX[9:0]</obj_property>
+      <obj_property name="ObjectShortName">iReadAddressX[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/uut/iReadAddressY" type="array">
+      <obj_property name="ElementShortName">iReadAddressY[9:0]</obj_property>
+      <obj_property name="ObjectShortName">iReadAddressY[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/uut/omul_tvalid" type="logic">
+      <obj_property name="ElementShortName">omul_tvalid</obj_property>
+      <obj_property name="ObjectShortName">omul_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/uut/oadd_tvalid" type="logic">
+      <obj_property name="ElementShortName">oadd_tvalid</obj_property>
+      <obj_property name="ObjectShortName">oadd_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FpMul/uut/iReadEnableAB" type="logic">
+      <obj_property name="ElementShortName">iReadEnableAB</obj_property>
+      <obj_property name="ObjectShortName">iReadEnableAB</obj_property>
+   </wvobject>
+</wave_config>
